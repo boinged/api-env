@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: web
-        image: gcr.io/stevenshipton-com/web:2b593a4
+        image: gcr.io/stevenshipton-com/web:f15f4b9
         ports:
         - containerPort: 8080
