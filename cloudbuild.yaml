@@ -4,4 +4,5 @@ steps:
   args: [
    'run',
    '--filename', 'deploy/deployment.yaml',
-   '--cluster', $_CLUSTER]
+   '--cluster', $_CLUSTER,
+   '--location', $_LOCATION]
