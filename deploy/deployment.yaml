@@ -18,6 +18,6 @@ spec:
         cloud.google.com/gke-nodepool: ingress
       containers:
       - name: web
-        image: gcr.io/stevenshipton-com/web:08617c8
+        image: gcr.io/stevenshipton-com/web:d96782c
         ports:
         - containerPort: 8080

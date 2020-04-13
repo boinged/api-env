@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/gke-deploy'
+  id: Deploy
+  args: ['run', '--filename', 'deploy/deployment.yaml']
