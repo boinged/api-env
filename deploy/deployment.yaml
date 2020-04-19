@@ -6,7 +6,8 @@ metadata:
     app: web
 spec:
   replicas: 1
-  type: Recreate
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: web
