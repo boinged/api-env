@@ -20,6 +20,6 @@ spec:
         cloud.google.com/gke-nodepool: main
       containers:
       - name: api
-        image: gcr.io/stevenshipton-com/api:d833660a
+        image: gcr.io/stevenshipton-com/api:6a73456
         ports:
         - containerPort: 8080
