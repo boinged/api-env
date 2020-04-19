@@ -1,25 +1,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web
+  name: api
   labels:
-    app: web
+    app: api
 spec:
   replicas: 1
   strategy:
     type: Recreate
   selector:
     matchLabels:
-      app: web
+      app: api
   template:
     metadata:
       labels:
-        app: web
+        app: api
     spec:
       nodeSelector:
         cloud.google.com/gke-nodepool: main
       containers:
-      - name: web
+      - name: api
         image: gcr.io/stevenshipton-com/api:63077c2
         ports:
         - containerPort: 8080

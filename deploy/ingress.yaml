@@ -4,5 +4,5 @@ metadata:
   name: ingress
 spec:
   backend:
-    serviceName: web
+    serviceName: api
     servicePort: 8080
