@@ -20,7 +20,7 @@ spec:
         cloud.google.com/gke-nodepool: main
       containers:
       - name: api
-        image: eu.gcr.io/stevenshipton-com/api:c2ac3aa
+        image: eu.gcr.io/stevenshipton-com/api:63c2b80
         env:
           - name: DATABASE_URI
             valueFrom:
