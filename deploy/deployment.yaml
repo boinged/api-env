@@ -29,3 +29,8 @@ spec:
                 key: uri
         ports:
         - containerPort: 8080
+      dnsPolicy: "None"
+      dnsConfig:
+        nameservers:
+        - 8.8.8.8
+        - 8.8.4.4
